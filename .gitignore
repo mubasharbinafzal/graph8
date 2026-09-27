@@ -1,0 +1,33 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+# Frontend dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+
+# Test reports and coverage
+playwright-report/
+test-results/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Local mission database and SQLite sidecars
+autopilot.sqlite3*
+
+# OS files and logs
+.DS_Store
+Thumbs.db
+*.log
